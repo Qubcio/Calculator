@@ -1,7 +1,16 @@
 package kalkulator;
 
+/**
+ * 
+ * @author Kuba
+ */
 public class Calculator {
 
+    /**
+     * 
+     * @param text value to count
+     * @return answer of calculations
+     */
     public String count(String text) {
         boolean correctString = true;
         for (int i = 0; i < text.length(); i++) {
